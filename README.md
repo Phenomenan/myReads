@@ -7,10 +7,10 @@ This is a project for Udacity Front-End Nanodegree course. It helps you to manag
 
 The starter source is:(https://github.com/facebookincubator/create-react-app)
 
-#Pre-requisites
+# Pre-requisites
 npm or yarn should be installed
 
-#Installation
+# Installation
 run 'npm install' and after that 'npm start'
 *you can use yarn instead of npm*
 The app will start at:
