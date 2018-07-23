@@ -1,9 +1,9 @@
 # MyReads Project
 
 This is a project for Udacity Front-End Nanodegree course. It helps you to manage your book list. You can manage three different list:
--Currently Reading
--Want to Read
--Read
+- Currently Reading
+- Want to Read
+- Read
 
 The starter source is:(https://github.com/facebookincubator/create-react-app)
 
