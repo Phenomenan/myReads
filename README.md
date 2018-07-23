@@ -11,7 +11,8 @@ The starter source is:(https://github.com/facebookincubator/create-react-app)
 npm or yarn should be installed
 
 # Installation
-run 'npm install' and after that 'npm start'
+- Run 'npm install'
+- 'npm start'
 *you can use yarn instead of npm*
-The app will start at:
+- The app will start at:
 http://localhost:3000/
