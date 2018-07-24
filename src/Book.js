@@ -4,10 +4,6 @@ import StarRatingComponent from 'react-star-rating-component'
 
 
 class Book extends Component {
-  state = {
-    rating: 0
-  }
-
   static propTypes = {
     book: PropTypes.object.isRequired,
     onMoveBook: PropTypes.func.isRequired
@@ -26,7 +22,7 @@ class Book extends Component {
           <div className="book-cover" title={book.description} style={{ height: 192, width: 128, backgroundImage: `url(${book.imageLinks !== undefined ? book.imageLinks.thumbnail: ''})` }}>
           </div>
           <div className="book-shelf-changer">
-            <select value={book.shelf} onChange={(e) => this.updateBook(e.target.value)}>
+            <select value={book.shelf || 'none'} onChange={(e) => this.updateBook(e.target.value)}>
               <option value="" disabled>Move to...</option>
               <option value="currentlyReading">Currently Reading</option>
               <option value="wantToRead">Want to Read</option>
